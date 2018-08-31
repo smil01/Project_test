@@ -33,6 +33,7 @@ public class test_20180831 {
                vo.setDae(resultSet.getInt("dae"));
                vo.setGeun(resultSet.getString("geun"));
 
+               
                System.out.println(vo.toString());
            }
         }catch(Exception e){
